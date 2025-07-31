@@ -1,13 +1,13 @@
 # Signature & Stamp Segmentation Project (YOLOv11)
 
-Bu proje, banka belgeleri üzerinde **imza (signature)** ve **kaşe (stamp)** tespiti ve segmentasyonu için YOLOv11 tabanlı bir makine öğrenimi/derin öğrenme pipeline'ı içerir.
+Bu proje, **imza (signature) ve kaşe (stamp) segmentasyonu** için YOLOv11 tabanlı derin öğrenme modelinin geliştirilmesini ve test edilmesini içerir.
 
 ## 📂 Proje Akışı
 
 1. **Veri Seti Hazırlığı**
 
-   - Roboflow'dan YOLOv11 formatında indirilen veri seti kullanıldı.
-   - Kaggle Datasets üzerine yüklenerek online ve GPU destekli ortamda kolayca eğitim/test yapıldı.
+   - Roboflow'dan YOLOv11 formatında indirilen veri seti kullanıldı. [Roboflow](https://universe.roboflow.com/sig-and-stamps/sig-stamps)
+   - Kaggle Datasets üzerine yüklenerek online ve GPU destekli ortamda kolayca eğitim/test yapıldı. [Kaggle Dataset](https://www.kaggle.com/datasets/mertaslayilmaz/signature-stamp-segmentation-dataset) / [Kaggle Notebook](https://www.kaggle.com/code/mertaslayilmaz/signature-stamp-segmentation-yolov11)
 
 2. **Model Eğitimi**
 
